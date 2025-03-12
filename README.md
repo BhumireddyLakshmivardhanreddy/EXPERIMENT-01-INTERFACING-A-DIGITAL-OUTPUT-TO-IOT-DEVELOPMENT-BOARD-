@@ -1,8 +1,8 @@
-###  DATE: 
+###  DATE:  05/03/2025
 
-###  NAME: 
-###  ROLL NO :
-###  DEPARTMENT: 
+###  NAME: BHUMIREDDY LAKSHMI VARDHAN REDDY
+###  ROLL NO :212223240016
+###  DEPARTMENT: AIML
 
 
 
@@ -86,15 +86,17 @@ The main features of LPC2148 include the following.
 
 
 ## STM 32 CUBE PROGRAM :
-
-
-
-
-
+```
+while (1)
+  {
+	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_RESET);
+	  HAL_Delay(1000);
+	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_SET);
+   HAL_Delay(1000);
+  }
+```
 ## OUTPUT  :
- 
- 
- 
- 
+ ![419353365-5bef5156-03c9-42fd-9365-44adf66ade90](https://github.com/user-attachments/assets/69b77339-cfd3-410e-a30b-e5a8a47db0c3)
+
 ## Result :
 Interfacing a digital output with ARM microcontroller based IOT development is executed and the results are verified.
